@@ -36,3 +36,40 @@
 
 
 // Example 2 Real life example
+
+
+// example 1
+//const test = "";
+//const test = 
+//const test =
+//const test =
+//const test =
+const test = "chris";
+
+if(test) {
+    console.log("truly");
+} else {
+    console.log("falsy");
+}
+
+
+// example real life
+
+const carsData = [
+    {
+        make: "Tesla",
+        isElectric: true
+    },
+    {
+        make: "Audi",
+        isElectric: false
+    }
+]
+
+carsData.forEach(function (car){
+if(car.isElectric){
+console.log("car make is " + car.make + " and it is electric");
+} else {
+    console.log("car make is " + car.make + " and it is not electric")
+}
+});
