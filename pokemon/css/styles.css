@@ -1,0 +1,42 @@
+* {
+  font-family: "Rowdies", cursive;
+  font-weight: 400;
+}
+
+body {
+  background-color: #76b4aa;
+}
+.my-pokemons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.my-pokemons li {
+  width: 200px;
+  height: 200px;
+  background-color: #005e54;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+}
+
+.my-pokemons li span {
+  color: #63a526;
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: -0.5px;
+}
